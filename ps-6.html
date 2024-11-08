@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <pre>
+    Task:-
+
+1. check whether a given number is prime or not using while loop
+1. Sum of Even Numbers
+
+Write a program to find the sum of all even numbers between 1 and 50 using a while loop.
+
+Example: The output should be 650.
+
+2. Count Digits
+
+Write a program that takes a number as input and counts the number of digits in it using a while loop.
+
+Example: Input: 12345 → Output: 5
+3. Find Minimum Digit
+
+Write a program to find the smallest digit in a given number using a while loop.
+
+Example: Input: 27649 → Output: 2
+
+4. Sum of Odd Digits
+
+Write a program that takes a number as input and calculates the sum of all its odd digits using a while loop.
+
+Example: Input: 13579 → Output: 25
+5. Perfect Number Check
+
+A perfect number is a positive integer that is equal to the sum of its proper divisors (excluding itself). Write a program to check if a given number is a perfect number.
+
+Example: Input: 28 → Output: true (since 1 + 2 + 4 + 7 + 14 = 28)
+</pre
+    >
+    <script>
+      // q1
+      // let num = 1
+      // while(num<=50){
+      //     if(num%2==0){
+      //     console.log(num);
+      //     }
+      //     num++
+      // }
+
+      // q1
+      let i=1;
+      let sum=0;
+      while(i<=50){
+          if(i%2==0){
+          sum+=i
+          }
+          i++
+      }
+      console.log(sum);
+
+      // q2
+      //     let number = 123456789;
+      //     let temp = number
+      //     let i=0;
+      //     let digits=0
+      //     while(i<temp){
+      //     temp=parseInt(temp/10)
+      //     digits++
+      // }
+      // console.log(digits);
+
+      //  Q3
+      // debugger
+      // let numb=345671892;
+      // let temp1=numb
+      // let smallest=9
+      // while(numb>0){
+      //     digits=Math.floor(numb%10)
+      //     if(digits<smallest){
+      //       smallest=digits
+      //     }
+      //     numb=parseInt(numb/10)
+      // }
+      // console.log(smallest);
+
+      //   q4
+      // debugger
+      // let number = 65567;
+      // let sum = 0;
+      // while(number>0){
+      //     temp=number%10
+      //     if(temp % 2!==0){
+      //         sum+= temp
+      //     }
+      //     number = parseInt(number/10);
+
+      // }
+      // console.log(sum);
+
+      // q5  //
+    //   let num = +prompt("enter number");
+    //   let sum = 0;
+    //   let i = 0;
+    //   while (i < num) {
+    //     if (num % i === 0) {
+    //       sum += i;
+    //     }
+    //     i++;
+    //   }
+    //   if (sum === num) {
+    //     console.log("correct number");
+    //   } else {
+    //     console.log("incorrect number");
+    //   }
+    </script>
+  </body>
+</html>
